@@ -14,9 +14,9 @@ public class ReverseNumberWhile
     Scanner input = new Scanner(System.in);
     num = input.nextInt();
     
-    while(num != 0-)
+    while(num != 0)
     {
-      reverseNum = reverseNum * 10:
+      reverseNum = reverseNum * 10;
       reverseNum = reverseNum + num % 10;
       num = num / 10;
     }
